@@ -110,3 +110,15 @@ img {
     height: auto;
 }
 
+
+.Sportify {
+        width: 80%;
+        background-color: white;
+        box-shadow: 4px 0px 0px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+}
+
+div.container3 {
+    text-align: center;
+    padding: 10px 20px;
+  }
