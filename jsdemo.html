@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript</title>
+    <script src="js/main.js"></script>
 </head>
 <body>
     
 <h1 id="FROG">chapter 1</h1>
+<p id="Cats">Cats are amazing</p>
+
+<div class="main_img">
+    <img id="img" src="img/download.jpg">
+</div>
+<div id="thumb_img">
+    <img src='1772031_29_t.jpg'  onclick='changeImage("1772031_29_b.jpg");'>
+</div>
+
+<button onclick="Cats()">Cats</button>
+<button onclick="img()">change</button>
 
 </body>
+
 <script> 
     document.getElementById("FROG").innerHTML="Frogs can jump";
 </script>
