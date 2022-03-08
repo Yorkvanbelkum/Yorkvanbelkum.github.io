@@ -114,9 +114,17 @@ img {
 .Sportify {
         width: 80%;
         background-color: white;
-        box-shadow: 4px 0px 0px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
 }
+.Button5{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+.Buttom5:hover {
+    background-color: #555555;
+    color: white;
+  }
 
 div.container3 {
     text-align: center;
