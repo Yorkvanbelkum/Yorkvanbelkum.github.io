@@ -2,6 +2,53 @@
     margin-top: 50px;
 }
 
-#body-background {
-    background-image: url(img/backgroundimage4.png);
+.bg-image {
+      /* The image used */
+  background-image: url("img/NFT2.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.text1 {
+    font-size: 20px;
+}
+
+.text1 span {
+    transition: .5s;
+    border-bottom: 2px solid orange;
+}
+
+.text1 span:hover {
+    transition: .5s;
+    border-bottom: 2px solid grey;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.artwork1{
+    text-align: right;
+}
+
+.underline{
+ border-bottom: 2px solid orange;   
+ transition: smooth;
 }
