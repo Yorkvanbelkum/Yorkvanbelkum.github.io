@@ -1,15 +1,14 @@
+body {
+    scroll-behavior: smooth;
+}
 .text-center {
     margin-top: 50px;
 }
 
+
 .bg-image {
-      /* The image used */
   background-image: url("img/NFT2.png");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,13 +34,19 @@
     cursor: pointer;
 }
 
+.color span:hover {
+    color: orange;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
 a:hover {
-    color: white;
+    color: orange;
+    transition: 1s;
 }
 
 .artwork1{
@@ -51,4 +56,12 @@ a:hover {
 .underline{
  border-bottom: 2px solid orange;   
  transition: smooth;
+}
+
+.icons {
+    color: grey;
+}
+
+.icons:hover {
+    color: orange;
 }
