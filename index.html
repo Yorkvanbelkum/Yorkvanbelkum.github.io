@@ -11,6 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Roboto+Mono:wght@100;500&family=Smooch+Sans:wght@200&display=swap" rel="stylesheet">
     <title>YORK</title>
 </head>
+<div class="loader">
+  <div class="load-text">
+    <div class="loaded-text">Y</div>
+    <div class="loading-text">ork</div>
+  </div>
+</div>
 <body class="bg-dark text-white">
   <div class="bg-image">
     <div class="container position-relative vh-100">
@@ -44,7 +50,7 @@
       <div class="row">
         <div class="col-6 position-absolute top-50 start-0 translate-middle-y">
           <h1 class="text">York van Belkum</h1>
-          <p class="text1">I am a student on <span> <a href="https://www.sintlucas.nl/">SintLucas</a></span> and I will help you create your own website.</p>      
+          <p class="text1">I am a student on <span> <a href="https://www.sintlucas.nl/">SintLucas</a></span> and I am searching for a interschip.</p>      
         </div>
         <div class="col-5"></div>
         <div class="col-1 position-absolute top-50 end-0 translate-middle-y icons">
@@ -79,5 +85,12 @@
       </div>
     </div>
   </div>
+  <script>
+    function removeHTML(str){ 
+        var tmp = document.createElement("loader");
+        tmp.innerHTML = str;
+        return tmp.textContent || tmp.innerText || "";
+    }
+  </script>
 </body>
 </html>
