@@ -9,65 +9,7 @@ body::-webkit-scrollbar {
   }
   
   .bg-image {
-
-
-
-
-.text-center {
-  margin-top: 50px;
-}
-
-.bg-image {
-  background-image: url("img/NFTzwart.png");
-  min-height: 1500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.text {
-  font-size: 40px;
-}
-
-.text1 {
-  font-size: 20px;
-}
-
-.text1 span {
-  transition: .5s;
-  border-bottom: 2px solid orange;
-}
-
-.text1 span:hover {
-  transition: .5s;
-  border-bottom: 2px solid grey;
-  cursor: pointer;
-}
-
-.color span:hover {
-  color: orange;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: orange;
-  transition: 1s;
-}
-
-.artwork1{
-  text-align: right;
-}
-
-.underline{
-  border-bottom: 2px solid orange;   
-  transition: smooth;
-}
+    background-image: url("img/NFTzwart.png");
     min-height: 1500px;
     background-attachment: fixed;
     background-position: center;
