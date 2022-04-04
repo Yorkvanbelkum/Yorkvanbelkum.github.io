@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   
   .bg-image {
     background-image: url("img/NFTzwart.png");
-    min-height: 1500px;
+    min-height: 2000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
