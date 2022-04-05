@@ -90,12 +90,14 @@ body {
   
 
 .bg-image {
-  background-image: url("img/Pin-on-Super-gif.gif");
+  background-image: url("img/backgroundimage5.png");
   min-height: 2300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  top: 0;
+  left: 0;
 }
 
 .text {
