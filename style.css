@@ -150,3 +150,7 @@ a:hover {
 .icons:hover {
     color: orange;
 }
+
+.dropdown-menu {
+  z-index: 999;
+}
