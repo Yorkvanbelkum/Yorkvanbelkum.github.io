@@ -12,45 +12,7 @@ body {
     margin-top: 50px;
 
 }
-
-.loader {
-    font-family: 'Staatliches', cursive;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: black;
-    width: 100%;
-    height: 100vh;
-    animation: backgroundChange .5s linear 3s forwards;
-    z-index: 1;
-    animation: fadeOut .5s linear 3s forwards;
-  }
-  
-  .load-text {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    font-size: 10vmax;
-    width: fit-content;
-    display: flex;
-    animation: colorChange .5s linear 3s forwards;
-  }
-  
-  .loaded-text {
-    color: white;
-    transform: scale(1.5);
-    animation: scaleText .5s linear .5s forwards;
-  }
-  
-  .loading-text {
-    color: white;
-    width: 0;
-    overflow: hidden;
-    animation: expand .5s linear 1.5s forwards;
-  }
-
-  
+ 
   main {
     padding: 1em;
     box-sizing: border-box;
