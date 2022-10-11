@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   }
   
   .bg-image {
-    background-image: url("img/backgroundimage5.png");
+    background-image: url("/img/backgroundimage5.png");
     min-height: 2000px;
     background-attachment: fixed;
     background-position: center;
