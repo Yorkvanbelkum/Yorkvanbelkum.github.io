@@ -21,7 +21,8 @@ main {
   }
   
   .load-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto";
+    font-weight: bold;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
