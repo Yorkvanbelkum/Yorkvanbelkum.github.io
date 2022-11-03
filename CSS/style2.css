@@ -59,3 +59,9 @@ body::-webkit-scrollbar {
     border-bottom: 2px solid orange;   
     transition: smooth;
   }
+
+  .img {
+    width: 50%;
+    height: 100%;
+    box-shadow: 20 15 25;
+  }
