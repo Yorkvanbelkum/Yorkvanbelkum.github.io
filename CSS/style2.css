@@ -61,7 +61,22 @@ body::-webkit-scrollbar {
   }
 
   .img {
+    transition: 1s;
     width: 50%;
     height: 100%;
     box-shadow: 20 15 25;
+  }
+
+  img:hover {
+    transition: 1s;
+    transform: scale(130%);
+  }
+
+  .progress {
+    transition: 1s;
+  }
+
+  .progress:hover {
+    transform: scale(110%);
+    transition: 1s;
   }
